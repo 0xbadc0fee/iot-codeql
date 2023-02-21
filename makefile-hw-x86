@@ -2,7 +2,7 @@
 CC=gcc
 CCFLAGS=
 INCLUDES=
-LFLAGS=-L/gh/usr/lib/x86_64-linux-gnu
+#LFLAGS=-L/gh/usr/lib/x86_64-linux-gnu
 #LFLAGS=-L/usr/lib/x86_64-linux-gnu
 #LFLAGS=-L/buildroot/output/build/libcurl-7.83.1/include/curl
 LIBS=-lcurl -lpthread
