@@ -55,7 +55,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Install dependencies
-      run: sudo apt-get -y install git cmake libcurl4-gnutls-dev
+      run: sudo apt-get -y install git make libcurl4-gnutls-dev
       
     - name: Compile project
       run: sudo make -f makefile-hw-x86
