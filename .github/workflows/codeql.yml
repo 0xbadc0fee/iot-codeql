@@ -55,7 +55,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Install dependencies
-      run: sudo apt-get -y install git make libcurl4-gnutls-dev build-essential
+      run: sudo apt-get -y install git make libcurl4-gnutls-dev build-essential libpthread-stubs0-dev gcc-x86-64-linux-gnu
       
     - name: Compile project
       run: sudo make -f makefile-hw-x86
