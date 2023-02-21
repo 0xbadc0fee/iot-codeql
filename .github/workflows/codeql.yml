@@ -55,7 +55,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Install dependencies
-      run: sudo apt-get install git cmake curl
+      run: sudo apt-get -y install git cmake curl
       
     - name: Compile project
       run: sudo make -f makefile-hw-x86
