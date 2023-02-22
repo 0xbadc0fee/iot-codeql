@@ -158,7 +158,7 @@ int main(int argc, char **argv) {
   /*CURL inputs*/
 
   int c;
-  char *message = NULL;
+  char *message;
   char *url = NULL;
 
   CURL *curl;
