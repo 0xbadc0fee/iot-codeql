@@ -162,7 +162,7 @@ int main(int argc, char **argv) {
   char *url = NULL;
 
   CURL *curl;
-  CURLcode res;
+  CURLcode res=0;
 
   curl = curl_easy_init();
 
