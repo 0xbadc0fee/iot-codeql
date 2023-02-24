@@ -59,8 +59,9 @@ jobs:
       run: sudo apt-get -y install git make libcurl4-gnutls-dev build-essential libpthread-stubs0-dev gcc-x86-64-linux-gnu
       
     - name: Compile project
-      run: make -f makefile-hw-x86
-      run: make -f make_mode4logd
+      run: |
+           make -f makefile-hw-x86
+           make -f make_mode4logd
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
