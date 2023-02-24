@@ -61,7 +61,7 @@ jobs:
     - name: Compile project
       run: |
            make -f makefile-hw-x86
-           make -f make_mode4logd
+           make -f make_mod4logd
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
