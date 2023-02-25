@@ -51,6 +51,12 @@ static void _do_work(void) {
   }
 }
 
+//deliberate cwe, unitialized variable
+static void _do_badidea(void) {
+  int x;
+  printf("Your uninitialized number is : %d", x);
+}
+
 int main(void){
   //
   //
@@ -122,7 +128,7 @@ int main(void){
   //
   //
   _do_work();
-
+  _do_badidea();
   //
   //
   //
